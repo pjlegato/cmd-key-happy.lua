@@ -12,6 +12,7 @@ end
 
 global_excludes = Set{ "shift-cmd-tab",
 		       "cmd-tab",
+                       "cmd-`", -- Switch windows within application
                        "cmd-q", -- quit
                        "cmd-p", -- print
                        "cmd-c", -- copy
