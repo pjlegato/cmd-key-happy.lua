@@ -36,6 +36,7 @@ apps = {
                             "cmd-d", -- create bookmark
                             "cmd-left", -- back 1 page
                             "cmd-right", -- forward 1 page
+                            "cmd-r" -- reload page
                     }},
    Terminal = { exclude = Set{ "shift-cmd-[",
                                "shift-cmd-]",
