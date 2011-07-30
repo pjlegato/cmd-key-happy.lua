@@ -1,5 +1,12 @@
 
-My cmd-key-happy.lua file, in the hopes that it may be useful to someone else.
+My cmd-key-happy.lua configuration file, in the hopes that it may be
+useful to someone else. 
+
+Cmd-key-happy swaps the cmd and alt keys on a Macintosh keyboard, to
+make it work more like Linux, which is useful for using Emacs-style
+keybindings.
+
+The actual cmd-key-happy program is at https://github.com/aim-stuff/cmd-key-happy.
 
 Copyright (C) 2001 by Paul Legato.
 
