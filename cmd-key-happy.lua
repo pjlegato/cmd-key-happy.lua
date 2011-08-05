@@ -21,6 +21,8 @@ global_excludes = Set{ "shift-cmd-tab",
                        "cmd-a", -- select all
                        "cmd-=", -- zoom in
                        "cmd--", -- zoom out
+                       "cmd-left", -- back 1 tab
+                       "cmd-right", -- forward 1 tab
 
                     }
 
@@ -39,6 +41,14 @@ apps = {
                             "cmd-right", -- forward 1 page
                             "cmd-r" -- reload page
                     }},
+   Adium = { exclude = Set{
+                               "cmd-1",
+                               "cmd-2",
+                               "cmd-3",
+                               "cmd-4",
+                               "cmd-5",
+                               "cmd-6",
+          }},
    Terminal = { exclude = Set{ "shift-cmd-[",
                                "shift-cmd-]",
                                "cmd-c",
@@ -57,8 +67,6 @@ apps = {
                 "cmd-3",
                 "cmd-4",
                 "cmd-5",
-                "cmd-left", -- back 1 tab
-                "cmd-right", -- forward 1 tab
                        }},
 
    Eclipse  = { exclude = {} },
